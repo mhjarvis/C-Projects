@@ -9,12 +9,11 @@
 using namespace std;
 
 int main(int argc, const char * argv[]) {
+
+    int *ptr;
     
-    int scores [] {100, 99, 44};
-    
-    for (int score : scores) {
-        cout << score + 1 << endl;
-    }
-    
+    cout << ptr << endl;
+    cout << *ptr++ << endl;
+
     return 0;
 }
